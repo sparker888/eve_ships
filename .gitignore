@@ -55,7 +55,6 @@ Temporary Items
 # Project Files and Folders
 # =========================
 
-images/**
-testing/**
+img/**
 video/**
 .htaccess
