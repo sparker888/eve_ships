@@ -95,21 +95,273 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/* GLOBAL STYLES */
 
+body {
+  background: url(../images/2480x1220-bg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: "Teko", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
 
+a {
+  color: #996098;
+}
 
+a:hover {
+  color: #996098;
+}
 
+.nobackground {
+    background: #060606;
+    background-color: rgba(6,6,6,0.80);
+    box-shadow: 0 0 5px 5px rgba(6,6,6,0.80);
+    opacity: 0.99;
+    margin-top: 30px;
+}
 
+.factions {
+  background-color: none;
+}
 
+.btn-pirate:hover, .btn-pirate:active {
+    background-color: #386d39;
+}
 
+.btn-pirate, .btn-pirate:visited {
+    background-color: #3c763d;
+}
 
+hr {
+  border-style: solid;
+  border-color: #996098;
+}
 
+.the-end {
+  text-align: center;
+  color: #996098;
+}
 
+/* HEADLINE */
 
+.top_header h2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  width: 100%;
+  color: #996098;
+  text-shadow:1px 1px 10px #000, 1px 1px 10px #ccc;
+  font-family: "Anton", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
 
+/* MAIN SECTION */
 
+.faction_logos {
+  height: 100px;
+  text-align: center;
+}
 
+.btn {
+  margin: 5px;
+  width: 100%;
+}
 
+.ship {
+  text-align: center;
+}
+
+/* FACTION LOGO EFFECTS */
+
+.shadowfilter-gold {
+	-webkit-filter: drop-shadow(0px 0px 0px rgba(255,255,255,0.80));
+	-webkit-transition: all 0.5s linear;
+	-o-transition: all 0.5s linear;
+	transition: all 0.5s linear;
+
+}.shadowfilter-gold:hover {
+	-webkit-filter: drop-shadow(0px 0px 8px rgba(240, 174, 80, 0.8));
+}
+
+.shadowfilter-green {
+	-webkit-filter: drop-shadow(0px 0px 0px rgba(255,255,255,0.80));
+	-webkit-transition: all 0.5s linear;
+	-o-transition: all 0.5s linear;
+	transition: all 0.5s linear;
+
+}.shadowfilter-green:hover {
+	-webkit-filter: drop-shadow(0px 0px 8px rgba(91, 184, 92, 0.8));
+}
+
+.shadowfilter-blue {
+	-webkit-filter: drop-shadow(0px 0px 0px rgba(255,255,255,0.80));
+	-webkit-transition: all 0.5s linear;
+	-o-transition: all 0.5s linear;
+	transition: all 0.5s linear;
+
+}.shadowfilter-blue:hover {
+	-webkit-filter: drop-shadow(0px 0px 8px rgba(2, 117, 216, 0.8));
+}
+
+.shadowfilter-red {
+	-webkit-filter: drop-shadow(0px 0px 0px rgba(255,255,255,0.80));
+	-webkit-transition: all 0.5s linear;
+	-o-transition: all 0.5s linear;
+	transition: all 0.5s linear;
+
+}.shadowfilter-red:hover {
+	-webkit-filter: drop-shadow(0px 0px 8px rgba(217, 83, 79, 0.8));
+}
+
+/* MASTER HEADER AND FOOTER STYLES */
+
+.master_header {
+  font-size: 1.0em;
+  text-align: center;
+}
+
+.master_header h4 {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  color: #CCC;
+}
+
+/* SECTION HEADERS */
+
+.section_header {
+  text-align: left;
+}
+
+/* SECTION TITLES */
+
+.section_header h1 {
+  margin-top: 15px;
+  margin-bottom: 5px;
+  color: #CCC;
+}
+
+.section_header h2 {
+  margin-top: 20px;
+  margin-bottom: 3px;
+  color: #CCC;
+}
+
+.bracket-icon {
+  margin-top: 15px;
+}
+
+.bracket-icon-destroyer {
+  margin-top: 9px;
+}
+
+.bracket-icon-cruiser {
+  margin-top: 5px;
+}
+
+.bracket-icon-battlecruiser {
+  margin-top: 3px;
+}
+
+.bracket-icon-bettleship {
+  margin-top: 0px;
+}
+
+/* MODAL FIX */
+
+.modal-backdrop {
+  z-index: -1;
+}
+
+/* CARD IMAGE */
+
+.card-img-top {
+  float:left;
+  height: 100%;
+}
+
+.card-img-damage {
+  float:left;
+  height: 100%;
+  margin-left: 20px;
+}
+
+/* CARDS */
+
+.modal-content {
+  background: rgba(204,204,204,0.65);
+}
+
+.card {
+  color: #CCC;
+  background-color: black;
+}
+
+.card-block {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.card-header {
+  border: 0;
+  padding: 0;
+}
+
+.card-header h1 {
+  padding-top: 22px;
+  color: #FFF;
+}
+
+.card-header-amarr {
+  background-color: #f0ad4e;
+}
+
+.card-header-gallente {
+  background-color: #5cb85c;
+}
+
+.card-header-caldari {
+  background-color: #0275d8;
+}
+
+.card-header-minmatar {
+  background-color: #d9534f;
+}
+
+.amarr {
+  color: #f0ad4e;
+}
+
+.gallente {
+  color: #5cb85c;
+}
+
+.caldari {
+  color: #0275d8;
+}
+
+.minmatar {
+  color: #d9534f;
+}
+
+.card-button {
+  width: 50%;
+}
+
+.card-bold {
+  font-weight: 700;
+}
+
+.card-subtitle {
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.text-muted {
+  color: #0275d8!important;
+}
+
+.btn-success, .btn-warning, .btn-success:hover, .btn-warning:hover {
+  color: #464a4c;
+}
 
 /* ==========================================================================
    Helper classes
