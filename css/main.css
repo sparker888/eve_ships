@@ -104,6 +104,8 @@ body {
   -o-background-size: cover;
   background-size: cover;
   font-family: "Teko", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #CCC;
+  background-color: #CCC;
 }
 
 a {
@@ -111,6 +113,10 @@ a {
 }
 
 a:hover {
+  color: #f0ad4f;
+}
+
+a:visited {
   color: #f0ad4f;
 }
 
@@ -136,15 +142,73 @@ hr {
   color: #f0ad4f;
 }
 
+/* NAV */
+
+.nav-link.dropdown-toggle {
+  font-family: "Arial", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.container {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.dropdown-menu {
+  top: 0;
+  left: 50%;
+  background-color: #1f3f75;
+}
+
+.navbar-brand {
+  padding-right: 3rem;
+  padding-top: 0.50rem;
+}
+
+.navbar-light, .navbar-toggler, .navbar-brand, .nav-link {
+  color: rgba(240,173,79,.9) !important;
+}
+
+button.navbar-toggler.navbar-toggler-right {
+  outline-color: rgba(240,173,79,.9);
+  margin-top: 5px;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-color: rgba(240,173,79,.9);
+}
+
+.fa-fighter-jet {
+  margin-left: 5px;
+}
+
+.dropdown-item {
+  color: #f0ad4f;
+  font-family: "Arial", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 0.9rem;
+}
+
+.dropdown-item a:visited {
+  color: #f0ad4f;
+}
+
+.dropdown-item:hover {
+  background-color: #CCC;
+  color: #1f3f75;
+}
+
 /* HEADLINE */
 
 .top_header h2 {
-  margin-top: 20px;
+  margin-top: 9px;
   margin-bottom: 10px;
+  margin-left: 22px;
   width: 100%;
   color: #CCC;
   text-shadow:1px 1px 10px #025aa5, 1px 1px 10px #31708f;
   font-family: "Anton", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 28px;
 }
 
 /* MAIN SECTION */
@@ -446,6 +510,12 @@ hr {
 
 .btn-success, .btn-warning, .btn-success:hover, .btn-warning:hover {
   color: #464a4c;
+}
+
+/* EXTEND PAGE */
+
+.extend {
+  margin-top: 1500px;
 }
 
 /* ==========================================================================
