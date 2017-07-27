@@ -105,7 +105,7 @@ body {
   background-size: cover;
   font-family: "Teko", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #CCC;
-  background-color: #CCC;
+  background-color: #030a26;
 }
 
 a {
@@ -227,7 +227,8 @@ button.navbar-toggler.navbar-toggler-right {
 .btn-amarr,
 .btn-amarr:focus,
 .btn-amarr:active,
-.btn-amarr.active {
+.btn-amarr.active
+.btn-amarr:visited {
   color: #f9dea8;
   background-color: #5e4d2b;
   border-color: #836c3b;
@@ -491,6 +492,157 @@ button.navbar-toggler.navbar-toggler-right {
   color: #84a684;
 }
 
+.special-1-amarr {
+  color: #ecdab6;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  font-variant: small-caps;
+}
+
+.special-2-amarr {
+  color: #ecdab6;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  font-variant: small-caps;
+}
+
+.special-1-gallente {
+  color: #8eb7b7;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  font-variant: small-caps;
+}
+
+.special-2-gallente {
+  color: #8eb7b7;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  font-variant: small-caps;
+}
+
+.special-1-caldari {
+  color: #b6cbe9;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  font-variant: small-caps;
+}
+
+.special-2-caldari {
+  color: #b6cbe9;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  font-variant: small-caps;
+}
+
+.special-1-minmatar {
+  color: #e6cbb3;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  font-variant: small-caps;
+}
+
+.special-2-minmatar {
+  color: #e6cbb3;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  font-variant: small-caps;
+}
+
+.special-1-pirate {
+  color: #84a684;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  font-variant: small-caps;
+}
+
+.special-2-pirate {
+  color: #84a684;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  font-variant: small-caps;
+}
+
+.red-icon {
+  color: #BB342F;
+}
+
+.yellow-icon {
+  color: #DDA448;
+}
+
+.green-icon {
+  color: #0A8754;
+}
+
+.card-title-left {
+  text-align: left;
+  font-size: 1.3rem;
+  margin-bottom: 2px;
+  font-weight: 400;
+}
+
+.first-card-title-left {
+  text-align: left;
+  font-size: 1.3rem;
+  margin-top: 10px;
+  margin-bottom: 2px;
+  font-weight: 400;
+}
+
+hr.amarr-top {
+  border-style: solid;
+  border-color: #ecdab6;
+  margin-top: 2px;
+}
+
+hr.gallente {
+  border-style: solid;
+  border-color: #8eb7b7;
+  margin-top: 2px;
+}
+
+hr.caldari {
+  border-style: solid;
+  border-color: #b6cbe9;
+  margin-top: 2px;
+}
+
+hr.minmatar {
+  border-style: solid;
+  border-color: #e6cbb3;
+  margin-top: 2px;
+}
+
+hr.pirate {
+  border-style: solid;
+  border-color: #84a684;
+  margin-top: 2px;
+}
+
+.text-left {
+  text-align: left;
+}
+
 .card-button {
   width: 50%;
 }
@@ -510,6 +662,527 @@ button.navbar-toggler.navbar-toggler-right {
 
 .btn-success, .btn-warning, .btn-success:hover, .btn-warning:hover {
   color: #464a4c;
+}
+
+/* CARD ACCORDION */
+
+#accordion .card-header {
+  background-color: #030a26;
+}
+
+#accordion-heretic .card-header {
+  background-color: #030a26;
+}
+
+#accordion-eris .card-header {
+  background-color: #030a26;
+}
+
+#accordion-flycatcher .card-header {
+  background-color: #030a26;
+}
+
+#accordion-sabre .card-header {
+  background-color: #030a26;
+}
+
+#accordion-confessor .card-header {
+  background-color: #030a26;
+}
+
+#accordion-hecate .card-header {
+  background-color: #030a26;
+}
+
+#accordion-jackdaw .card-header {
+  background-color: #030a26;
+}
+
+#accordion-svipul .card-header {
+  background-color: #030a26;
+}
+
+#accordion-omen .card-header {
+  background-color: #030a26;
+}
+
+#accordion-vexor .card-header {
+  background-color: #030a26;
+}
+
+#accordion-caracal .card-header {
+  background-color: #030a26;
+}
+
+#accordion-stabber .card-header {
+  background-color: #030a26;
+}
+
+#accordion-maller .card-header {
+  background-color: #030a26;
+}
+
+#accordion-thorax .card-header {
+  background-color: #030a26;
+}
+
+#accordion-moa .card-header {
+  background-color: #030a26;
+}
+
+#accordion-rupture .card-header {
+  background-color: #030a26;
+}
+
+#accordion-arbitrator .card-header {
+  background-color: #030a26;
+}
+
+#accordion-celestis .card-header {
+  background-color: #030a26;
+}
+
+#accordion-blackbird .card-header {
+  background-color: #030a26;
+}
+
+#accordion-bellicose .card-header {
+  background-color: #030a26;
+}
+
+#accordion-augoror .card-header {
+  background-color: #030a26;
+}
+
+#accordion-exequror .card-header {
+  background-color: #030a26;
+}
+
+#accordion-osprey .card-header {
+  background-color: #030a26;
+}
+
+#accordion-sythe .card-header {
+  background-color: #030a26;
+}
+
+#accordion-omen-ni .card-header {
+  background-color: #030a26;
+}
+
+#accordion-vexor-ni .card-header {
+  background-color: #030a26;
+}
+
+#accordion-caracal-ni .card-header {
+  background-color: #030a26;
+}
+
+#accordion-stabber-fi .card-header {
+  background-color: #030a26;
+}
+
+#accordion-exequror-ni .card-header {
+  background-color: #030a26;
+}
+
+#accordion-osprey-ni .card-header {
+  background-color: #030a26;
+}
+
+#accordion-sythe-fi .card-header {
+  background-color: #030a26;
+}
+
+#accordion-curse .card-header {
+  background-color: #030a26;
+}
+
+#accordion-lachesis .card-header {
+  background-color: #030a26;
+}
+
+#accordion-rook .card-header {
+  background-color: #030a26;
+}
+
+#accordion-huginn .card-header {
+  background-color: #030a26;
+}
+
+#accordion-pilgrim .card-header {
+  background-color: #030a26;
+}
+
+#accordion-arazu .card-header {
+  background-color: #030a26;
+}
+
+#accordion-falcon .card-header {
+  background-color: #030a26;
+}
+
+#accordion-rapier .card-header {
+  background-color: #030a26;
+}
+
+#accordion-zealot .card-header {
+  background-color: #030a26;
+}
+
+#accordion-ishtar .card-header {
+  background-color: #030a26;
+}
+
+#accordion-eagle .card-header {
+  background-color: #030a26;
+}
+
+#accordion-muninn .card-header {
+  background-color: #030a26;
+}
+
+#accordion-sacrilege .card-header {
+  background-color: #030a26;
+}
+
+#accordion-deimos .card-header {
+  background-color: #030a26;
+}
+
+#accordion-cerberus .card-header {
+  background-color: #030a26;
+}
+
+#accordion-vagabond .card-header {
+  background-color: #030a26;
+}
+
+#accordion-devoter .card-header {
+  background-color: #030a26;
+}
+
+#accordion-phobos .card-header {
+  background-color: #030a26;
+}
+
+#accordion-onyx .card-header {
+  background-color: #030a26;
+}
+
+#accordion-broadsword .card-header {
+  background-color: #030a26;
+}
+
+#accordion-guardian .card-header {
+  background-color: #030a26;
+}
+
+#accordion-oneiros .card-header {
+  background-color: #030a26;
+}
+
+#accordion-basilisk .card-header {
+  background-color: #030a26;
+}
+
+#accordion-scimitar .card-header {
+  background-color: #030a26;
+}
+
+#accordion-legion .card-header {
+  background-color: #030a26;
+}
+
+#accordion-proteus .card-header {
+  background-color: #030a26;
+}
+
+#accordion-tengu .card-header {
+  background-color: #030a26;
+}
+
+#accordion-loki .card-header {
+  background-color: #030a26;
+}
+
+#accordion-gila .card-header {
+  background-color: #030a26;
+}
+
+#accordion-phantasm .card-header {
+  background-color: #030a26;
+}
+
+#accordion-ashimuu .card-header {
+  background-color: #030a26;
+}
+
+#accordion-cynabal .card-header {
+  background-color: #030a26;
+}
+
+#accordion-vigilant .card-header {
+  background-color: #030a26;
+}
+
+#accordion-stratios .card-header {
+  background-color: #030a26;
+}
+
+#accordion-orthrus .card-header {
+  background-color: #030a26;
+}
+
+#accordion-rattlesnake .card-header {
+  background-color: #030a26;
+}
+
+#accordion-nightmare .card-header {
+  background-color: #030a26;
+}
+
+#accordion-bhaalgorn .card-header {
+  background-color: #030a26;
+}
+
+#accordion-machariel .card-header {
+  background-color: #030a26;
+}
+
+#accordion-vindicator .card-header {
+  background-color: #030a26;
+}
+
+#accordion-nestor .card-header {
+  background-color: #030a26;
+}
+
+#accordion-barghest .card-header {
+  background-color: #030a26;
+}
+
+#accordion-prophecy .card-header {
+  background-color: #030a26;
+}
+
+#accordion-brutix .card-header {
+  background-color: #030a26;
+}
+
+#accordion-ferox .card-header {
+  background-color: #030a26;
+}
+
+#accordion-cyclone .card-header {
+  background-color: #030a26;
+}
+
+#accordion-harbinger .card-header {
+  background-color: #030a26;
+}
+
+#accordion-myrmidon .card-header {
+  background-color: #030a26;
+}
+
+#accordion-drake .card-header {
+  background-color: #030a26;
+}
+
+#accordion-hurricane .card-header {
+  background-color: #030a26;
+}
+
+#accordion-oracle .card-header {
+  background-color: #030a26;
+}
+
+#accordion-talos .card-header {
+  background-color: #030a26;
+}
+
+#accordion-naga .card-header {
+  background-color: #030a26;
+}
+
+#accordion-tornado .card-header {
+  background-color: #030a26;
+}
+
+#accordion-harbinger-ni .card-header {
+  background-color: #030a26;
+}
+
+#accordion-brutix-ni .card-header {
+  background-color: #030a26;
+}
+
+#accordion-drake-ni .card-header {
+  background-color: #030a26;
+}
+
+#accordion-hurricane-fi .card-header {
+  background-color: #030a26;
+}
+
+#accordion-absolution .card-header {
+  background-color: #030a26;
+}
+
+#accordion-astarte .card-header {
+  background-color: #030a26;
+}
+
+#accordion-nighthawk .card-header {
+  background-color: #030a26;
+}
+
+#accordion-claymore .card-header {
+  background-color: #030a26;
+}
+
+#accordion-damnation .card-header {
+  background-color: #030a26;
+}
+
+#accordion-eos .card-header {
+  background-color: #030a26;
+}
+
+#accordion-vulture .card-header {
+  background-color: #030a26;
+}
+
+#accordion-sleipnir .card-header {
+  background-color: #030a26;
+}
+
+#accordion-apocalypse .card-header {
+  background-color: #030a26;
+}
+
+#accordion-megathron .card-header {
+  background-color: #030a26;
+}
+
+#accordion-scorpion .card-header {
+  background-color: #030a26;
+}
+
+#accordion-typhoon .card-header {
+  background-color: #030a26;
+}
+
+#accordion-armageddon .card-header {
+  background-color: #030a26;
+}
+
+#accordion-dominix .card-header {
+  background-color: #030a26;
+}
+
+#accordion-rokh .card-header {
+  background-color: #030a26;
+}
+
+#accordion-maelstrom .card-header {
+  background-color: #030a26;
+}
+
+#accordion-abaddon .card-header {
+  background-color: #030a26;
+}
+
+#accordion-hyperion .card-header {
+  background-color: #030a26;
+}
+
+#accordion-raven .card-header {
+  background-color: #030a26;
+}
+
+#accordion-tempest .card-header {
+  background-color: #030a26;
+}
+
+#accordion-apocalypse-ni .card-header {
+  background-color: #030a26;
+}
+
+#accordion-megathron-ni .card-header {
+  background-color: #030a26;
+}
+
+#accordion-scorpion-ni .card-header {
+  background-color: #030a26;
+}
+
+#accordion-typhoon-fi .card-header {
+  background-color: #030a26;
+}
+
+#accordion-armageddon-ni .card-header {
+  background-color: #030a26;
+}
+
+#accordion-dominix-ni .card-header {
+  background-color: #030a26;
+}
+
+#accordion-raven-ni .card-header {
+  background-color: #030a26;
+}
+
+#accordion-tempest-fi .card-header {
+  background-color: #030a26;
+}
+
+#accordion-redeemer .card-header {
+  background-color: #030a26;
+}
+
+#accordion-sin .card-header {
+  background-color: #030a26;
+}
+
+#accordion-widow .card-header {
+  background-color: #030a26;
+}
+
+#accordion-panther .card-header {
+  background-color: #030a26;
+}
+
+#accordion-paladin .card-header {
+  background-color: #030a26;
+}
+
+#accordion-kronos .card-header {
+  background-color: #030a26;
+}
+
+#accordion-golem .card-header {
+  background-color: #030a26;
+}
+
+#accordion-vargur .card-header {
+  background-color: #030a26;
+}
+
+/* CARD CAROUSEL */
+
+.carousel {
+  max-width: 200px !important;
+  margin-left: 75px;
+}
+
+.weapon {
+  margin-bottom: 20px;
+}
+
+.weapon-caption {
+  padding-bottom: 0;
 }
 
 /* EXTEND PAGE */
