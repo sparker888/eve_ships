@@ -666,6 +666,27 @@ hr.pirate {
 
 /* CARD ACCORDION */
 
+#accordion-executioner .card-header {
+  background-color: #030a26;
+}
+
+#accordion-atron .card-header {
+  background-color: #030a26;
+}
+
+#accordion-condor .card-header {
+  background-color: #030a26;
+}
+
+#accordion-slasher .card-header {
+  background-color: #030a26;
+}
+
+#accordion-punisher .card-header {
+  background-color: #030a26;
+}
+
+
 #accordion .card-header {
   background-color: #030a26;
 }
