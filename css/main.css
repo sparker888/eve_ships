@@ -108,6 +108,74 @@ body {
   background-color: #030a26;
 }
 
+.praetor {
+  background: url(../images/amarr-praetor-II.png) no-repeat top center;
+}
+
+.ogre {
+  background: url(../images/gallente-ogre-II.png) no-repeat top center;
+}
+
+.wasp {
+  background: url(../images/caldari-wasp-II.png) no-repeat top center;
+}
+
+.berserker {
+  background: url(../images/minmatar-berserker-II.png) no-repeat top center;
+}
+
+.energy {
+  background: url(../images/energy.png) no-repeat top center;
+}
+
+.hybrid {
+  background: url(../images/hybrid.png) no-repeat top center;
+}
+
+.missile {
+  background: url(../images/missile.png) no-repeat top center;
+}
+
+.projectile {
+  background: url(../images/projectile.png) no-repeat top center;
+}
+
+.thermal {
+  background: url(../images/thermal-1.png) no-repeat top center;
+}
+
+.em {
+  background: url(../images/electromagnetic-1.png) no-repeat top center;
+}
+
+.kinetic {
+  background: url(../images/kinetic-1.png) no-repeat top center;
+}
+
+.explosive {
+  background: url(../images/explosive-1.png) no-repeat top center;
+}
+
+.executioner {
+  background: url(../images/executioner.png) no-repeat top center;
+}
+
+.atron {
+  background: url(../images/atron.png) no-repeat top center;
+}
+
+.condor {
+  background: url(../images/condor.png) no-repeat top center;
+}
+
+.slasher {
+  background: url(../images/slasher.png) no-repeat top center;
+}
+
+
+
+
+
 a {
   color: #f0ad4f;
 }
@@ -609,6 +677,10 @@ button.navbar-toggler.navbar-toggler-right {
   font-weight: 400;
 }
 
+.margin-btm-20 {
+  margin-bottom: 20px !important;
+}
+
 hr.amarr-top {
   border-style: solid;
   border-color: #ecdab6;
@@ -666,6 +738,22 @@ hr.pirate {
 
 /* CARD ACCORDION */
 
+#accordion-energy .card-header {
+  background-color: #030a26;
+}
+
+#accordion-hybrid .card-header {
+  background-color: #030a26;
+}
+
+#accordion-missile .card-header {
+  background-color: #030a26;
+}
+
+#accordion-projectile .card-header {
+  background-color: #030a26;
+}
+
 #accordion-executioner .card-header {
   background-color: #030a26;
 }
@@ -685,6 +773,68 @@ hr.pirate {
 #accordion-punisher .card-header {
   background-color: #030a26;
 }
+
+#accordion-incursus .card-header {
+  background-color: #030a26;
+}
+
+#accordion-merlin .card-header {
+  background-color: #030a26;
+}
+
+#accordion-breacher .card-header {
+  background-color: #030a26;
+}
+
+#accordion-tormentor .card-header {
+  background-color: #030a26;
+}
+
+#accordion-tristan .card-header {
+  background-color: #030a26;
+}
+
+#accordion-kestrel .card-header {
+  background-color: #030a26;
+}
+
+#accordion-rifter .card-header {
+  background-color: #030a26;
+}
+
+#accordion-in-slicer .card-header {
+  background-color: #030a26;
+}
+
+#accordion-fn-comet .card-header {
+  background-color: #030a26;
+}
+
+#accordion-cn-hookbill .card-header {
+  background-color: #030a26;
+}
+
+#accordion-rf-firetail .card-header {
+  background-color: #030a26;
+}
+
+#accordion-crucifier-ni .card-header {
+  background-color: #030a26;
+}
+
+#accordion-maulus-ni .card-header {
+  background-color: #030a26;
+}
+
+#accordion-griffin-ni .card-header {
+  background-color: #030a26;
+}
+
+#accordion-vigil-fi .card-header {
+  background-color: #030a26;
+}
+
+
 
 
 #accordion .card-header {
