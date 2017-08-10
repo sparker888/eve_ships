@@ -225,7 +225,6 @@ hr {
 
 .dropdown-menu {
   top: 0;
-  left: 50%;
   background-color: #1f3f75;
 }
 
@@ -290,6 +289,7 @@ button.navbar-toggler.navbar-toggler-right {
   margin: 5px;
   width: 100%;
   border-radius: 0;
+  font-size: 1.5vw;
 }
 
 .btn-amarr,
@@ -430,6 +430,14 @@ button.navbar-toggler.navbar-toggler-right {
   margin-top: 0.5em;
   margin-bottom: 0.5em;
   color: #CCC;
+}
+
+.dropdown {
+  background-color: #16253b;
+  margin: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
 }
 
 /* SECTION HEADERS */
@@ -955,9 +963,37 @@ hr.pirate {
   background-color: #030a26;
 }
 
+#accordion-coercer .card-header {
+  background-color: #030a26;
+}
 
+#accordion-catalyst .card-header {
+  background-color: #030a26;
+}
 
+#accordion-cormorant .card-header {
+  background-color: #030a26;
+}
 
+#accordion-thrasher .card-header {
+  background-color: #030a26;
+}
+
+#accordion-dragoon .card-header {
+  background-color: #030a26;
+}
+
+#accordion-algos .card-header {
+  background-color: #030a26;
+}
+
+#accordion-corax .card-header {
+  background-color: #030a26;
+}
+
+#accordion-talwar .card-header {
+  background-color: #030a26;
+}
 
 #accordion .card-header {
   background-color: #030a26;
