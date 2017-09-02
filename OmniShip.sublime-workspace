@@ -1,0 +1,198 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/GoGravital/Documents/GoGravital/Eve_Ships"
+	],
+	"file_history":
+	[
+		"/C/Users/GoGravital/Documents/GoGravital/gravitaldigital.com/TEST/cookies.html",
+		"/C/Users/GoGravital/Documents/GoGravital/gravitaldigital.com/TEST/500.html",
+		"/C/Users/GoGravital/Documents/GoGravital/gravitaldigital.com/TEST/404.html",
+		"/C/Users/GoGravital/Documents/GoGravital/gravitaldigital.com/TEST/contact-gravital-digital.html",
+		"/C/Users/GoGravital/Documents/GoGravital/gravitaldigital.com/TEST/digital-analytics.html",
+		"/C/Users/GoGravital/Documents/GoGravital/gravitaldigital.com/TEST/search-engine-marketing.html",
+		"/C/Users/GoGravital/Documents/GoGravital/gravitaldigital.com/TEST/campaign-creative.html",
+		"/C/Users/GoGravital/Documents/GoGravital/gravitaldigital.com/TEST/programmatic-display.html",
+		"/C/Users/GoGravital/Documents/GoGravital/gravitaldigital.com/TEST/marketing-services.html",
+		"/C/Users/GoGravital/Documents/GoGravital/gravitaldigital.com/TEST/index.html",
+		"/C/Users/GoGravital/Documents/GoGravital/gravitaldigital.com/TEST/new-website.html",
+		"/C/Users/GoGravital/Documents/GoGravital/gravitaldigital.com/TEST/new-partner.html",
+		"/C/Users/GoGravital/Documents/GoGravital/gravitaldigital.com/TEST/new-office.html",
+		"/C/Users/GoGravital/Documents/GoGravital/gravitaldigital.com/TEST/css/skin.css",
+		"/C/Users/GoGravital/Documents/GoGravital/gravitaldigital.com/TEST/css/css_scss.css",
+		"/C/Users/GoGravital/Documents/GoGravital/gravitaldigital.com/TEST/signature2.html",
+		"/C/Users/GoGravital/Documents/GoGravital/gravitaldigital.com/PRODUCTION/cookies.html",
+		"/C/Users/GoGravital/Documents/GoGravital/gravitaldigital.com/PRODUCTION/500.html",
+		"/C/Users/GoGravital/Documents/GoGravital/gravitaldigital.com/PRODUCTION/404.html",
+		"/C/Users/GoGravital/Documents/GoGravital/gravitaldigital.com/PRODUCTION/contact-gravital-digital.html",
+		"/C/Users/GoGravital/Documents/GoGravital/gravitaldigital.com/PRODUCTION/digital-analytics.html",
+		"/C/Users/GoGravital/Documents/GoGravital/gravitaldigital.com/PRODUCTION/search-engine-marketing.html",
+		"/C/Users/GoGravital/Documents/GoGravital/gravitaldigital.com/PRODUCTION/campaign-creative.html",
+		"/C/Users/GoGravital/Documents/GoGravital/gravitaldigital.com/PRODUCTION/programmatic-display.html",
+		"/C/Users/GoGravital/Documents/GoGravital/gravitaldigital.com/TEST/new-partner-eric-needle.html",
+		"/C/Users/GoGravital/Documents/GoGravital/gravitaldigital.com/TEST/gravital-digital-vlog.html",
+		"/C/Users/GoGravital/Documents/GoGravital/gravitaldigital.com/TEST/second-office-open-in-orlando.html",
+		"/C/Users/GoGravital/Documents/GoGravital/gravitaldigital.com/TEST/robots.txt",
+		"/C/Users/GoGravital/Documents/GoGravital/gravitaldigital.com/PRODUCTION/index.html"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"orange"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "OmniShip.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 267.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
